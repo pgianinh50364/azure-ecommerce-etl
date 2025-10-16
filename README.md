@@ -14,6 +14,7 @@ This project processes Brazilian e-commerce data from Olist through a medallion 
 - **Azure Databricks**: Transformation engine with Spark structured streaming
 - **Terraform**: Infrastructure as Code for automated deployment
 
+![alt text](assets/architech.png)
 ---
 
 ## Key Features
