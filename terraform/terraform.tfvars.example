@@ -1,0 +1,5 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and fill in your actual values
+
+sql_admin_login    = "your_sql_admin_username"
+sql_admin_password = "your_sql_admin_password"

@@ -16,3 +16,4 @@ dist/
 terraform.tfvars
 terraform.tfstate
 .terraform.lock.hcl
+.terraform/
