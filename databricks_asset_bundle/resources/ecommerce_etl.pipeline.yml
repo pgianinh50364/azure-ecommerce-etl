@@ -1,0 +1,14 @@
+resources:
+  pipelines:
+    pipeline_silver_pipeline:
+      name: Silver pipeline
+      libraries:
+        - glob:
+            include: /Workspace/Users/<your-databricks-email>/.bundle/ecommerce_etl/dev/files/src/Silver
+              pipeline/transformations/silver_scd_type1.py
+      schema: silver
+      photon: true
+      catalog: ecommerce
+      serverless: true
+      root_path: /Workspace/Users/<your-databricks-email>/.bundle/ecommerce_etl/dev/files/src/Silver
+        pipeline
