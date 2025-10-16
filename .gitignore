@@ -1,0 +1,18 @@
+# Environment variables (contains secrets)
+.env
+
+# Python
+__pycache__/
+env/
+venv/
+dist/
+
+# IDEs
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+terraform.tfvars
+terraform.tfstate
+.terraform.lock.hcl

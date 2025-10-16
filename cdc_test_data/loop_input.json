@@ -1,0 +1,44 @@
+[
+    {
+        "schema": "dbo",
+        "table": "DimCustomer",
+        "cdc_column": "updated_at",
+        "from_date": "",
+        "load_strategy": "incremental"
+    },
+    {
+        "schema": "dbo",
+        "table": "DimProduct",
+        "cdc_column": "updated_at",
+        "from_date": "",
+        "load_strategy": "incremental"
+    },
+    {
+        "schema": "dbo",
+        "table": "DimSeller",
+        "cdc_column": "updated_at",
+        "from_date": "",
+        "load_strategy": "incremental"
+    },
+    {
+        "schema": "dbo",
+        "table": "FactOrder",
+        "cdc_column": "order_approved_at",
+        "from_date": "",
+        "load_strategy": "incremental"
+    },
+    {
+        "schema": "dbo",
+        "table": "FactOrderItem",
+        "cdc_column": "",
+        "from_date": "",
+        "load_strategy": "full"
+    },
+    {
+        "schema": "dbo",
+        "table": "DimDate",
+        "cdc_column": "",
+        "from_date": "",
+        "load_strategy": "full"
+    }
+]
